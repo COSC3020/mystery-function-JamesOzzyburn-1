@@ -12,3 +12,6 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+# Answer
+In the big picture this code just finds the maximum value in the array. In more detail this code recursivly slices the array into pieces and then compares each piece and then returns the larger one. It then checks the next slice "up" the recursive chain and returns the largest and then keeps repeating this until it returns the largest value in the array.
